@@ -9,13 +9,29 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,UITabBarControllerDelegate {
 
+    var myDeviceToken:String?
+    
     var window: UIWindow?
+    //private let _locationManager = CLLocationManager.init();
+//    var _networkReachabilityManager:NetworkReachabilityManager!;
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow (frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        let tabBarController = BaseTabbarController()
+        tabBarController.delegate = self
+        window?.rootViewController =  tabBarController
+        window?.makeKeyAndVisible()
+        
+//        _initSys()
+        
+        let local = Locale.current
+        let n = local.localizedString(forRegionCode: local.regionCode!);
+        print(n!);
         return true
     }
 

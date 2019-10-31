@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface KTLNavigationController : UINavigationController
-
+@property(strong,nonatomic)UIScreenEdgePanGestureRecognizer *panGestureRec;
 @end
 
 NS_ASSUME_NONNULL_END
