@@ -3,17 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		56E99FE3234F2E2D0024AB2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E99FE2234F2E2D0024AB2D /* AppDelegate.swift */; };
-		56E99FE5234F2E2D0024AB2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E99FE4234F2E2D0024AB2D /* ViewController.swift */; };
 		56E99FE8234F2E2D0024AB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E99FE6234F2E2D0024AB2D /* Main.storyboard */; };
 		56E99FEA234F2E2E0024AB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E99FE9234F2E2E0024AB2D /* Assets.xcassets */; };
 		56E99FED234F2E2E0024AB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E99FEB234F2E2E0024AB2D /* LaunchScreen.storyboard */; };
 		56E99FF8234F2E2E0024AB2D /* testSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E99FF7234F2E2E0024AB2D /* testSwiftTests.swift */; };
 		56E9A003234F2E2E0024AB2D /* testSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A002234F2E2E0024AB2D /* testSwiftUITests.swift */; };
+		56E9A017234F31B50024AB2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A016234F31B50024AB2D /* BaseViewController.swift */; };
+		56E9A019234F31F20024AB2D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A018234F31F20024AB2D /* HomeViewController.swift */; };
+		56E9A01D234F32780024AB2D /* KTLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A01C234F32780024AB2D /* KTLNavigationController.m */; };
+		56E9A01F234F35430024AB2D /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A01E234F35430024AB2D /* BaseNavigationController.swift */; };
+		56E9A022234F36710024AB2D /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A021234F36710024AB2D /* AnimationController.m */; };
+		56E9A025234F393A0024AB2D /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A024234F393A0024AB2D /* ThemeColor.swift */; };
+		56E9A027234F39DE0024AB2D /* ETNavBarTransparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A026234F39DE0024AB2D /* ETNavBarTransparent.swift */; };
+		56E9A029234F4B690024AB2D /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A028234F4B690024AB2D /* BaseTabbarController.swift */; };
+		56E9A02B234F4CFC0024AB2D /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A02A234F4CFC0024AB2D /* constant.swift */; };
+		56E9A02F234F7C660024AB2D /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A02E234F7C660024AB2D /* UIBarButtonItem-Extension.swift */; };
+		56E9A03123543F8C0024AB2D /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9A03023543F8C0024AB2D /* PageTitleView.swift */; };
+		A8E3AF4952164208041FD8A2 /* Pods_testSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539F32B1F7DDC24703D8A566 /* Pods_testSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039BC063D894998FAFE60B62 /* Pods-testSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSwift.debug.xcconfig"; path = "Target Support Files/Pods-testSwift/Pods-testSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		2C8FCF819CD61D4772F2F2E1 /* Pods-testSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSwift.release.xcconfig"; path = "Target Support Files/Pods-testSwift/Pods-testSwift.release.xcconfig"; sourceTree = "<group>"; };
+		539F32B1F7DDC24703D8A566 /* Pods_testSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E99FDF234F2E2D0024AB2D /* testSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E99FE2234F2E2D0024AB2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56E99FE4234F2E2D0024AB2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56E99FE7234F2E2D0024AB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56E99FE9234F2E2E0024AB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56E99FEC234F2E2E0024AB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,20 @@
 		56E99FFE234F2E2E0024AB2D /* testSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E9A002234F2E2E0024AB2D /* testSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSwiftUITests.swift; sourceTree = "<group>"; };
 		56E9A004234F2E2E0024AB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E9A016234F31B50024AB2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		56E9A018234F31F20024AB2D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		56E9A01A234F32780024AB2D /* testSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		56E9A01B234F32780024AB2D /* KTLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTLNavigationController.h; sourceTree = "<group>"; };
+		56E9A01C234F32780024AB2D /* KTLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTLNavigationController.m; sourceTree = "<group>"; };
+		56E9A01E234F35430024AB2D /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		56E9A020234F36710024AB2D /* AnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		56E9A021234F36710024AB2D /* AnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
+		56E9A024234F393A0024AB2D /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		56E9A026234F39DE0024AB2D /* ETNavBarTransparent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETNavBarTransparent.swift; sourceTree = "<group>"; };
+		56E9A028234F4B690024AB2D /* BaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		56E9A02A234F4CFC0024AB2D /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		56E9A02E234F7C660024AB2D /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		56E9A03023543F8C0024AB2D /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E3AF4952164208041FD8A2 /* Pods_testSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +109,8 @@
 				56E99FF6234F2E2E0024AB2D /* testSwiftTests */,
 				56E9A001234F2E2E0024AB2D /* testSwiftUITests */,
 				56E99FE0234F2E2D0024AB2D /* Products */,
+				9023ADF5DD3A66A2E2331414 /* Pods */,
+				BD5A45C6EC171A3C6C977A09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +127,8 @@
 		56E99FE1234F2E2D0024AB2D /* testSwift */ = {
 			isa = PBXGroup;
 			children = (
+				56E9A010234F2F9F0024AB2D /* Class */,
 				56E99FE2234F2E2D0024AB2D /* AppDelegate.swift */,
-				56E99FE4234F2E2D0024AB2D /* ViewController.swift */,
 				56E99FE6234F2E2D0024AB2D /* Main.storyboard */,
 				56E99FE9234F2E2E0024AB2D /* Assets.xcassets */,
 				56E99FEB234F2E2E0024AB2D /* LaunchScreen.storyboard */,
@@ -125,6 +155,108 @@
 			path = testSwiftUITests;
 			sourceTree = "<group>";
 		};
+		56E9A010234F2F9F0024AB2D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				56E9A02C234F7BF60024AB2D /* Tools */,
+				56E9A023234F39120024AB2D /* ThemeColor */,
+				56E9A015234F318C0024AB2D /* Main */,
+				56E9A011234F2F9F0024AB2D /* Home */,
+				56E9A012234F2F9F0024AB2D /* Message */,
+				56E9A013234F2F9F0024AB2D /* User */,
+				56E9A014234F2F9F0024AB2D /* Live */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		56E9A011234F2F9F0024AB2D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				56E9A018234F31F20024AB2D /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		56E9A012234F2F9F0024AB2D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		56E9A013234F2F9F0024AB2D /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		56E9A014234F2F9F0024AB2D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		56E9A015234F318C0024AB2D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				56E9A016234F31B50024AB2D /* BaseViewController.swift */,
+				56E9A01B234F32780024AB2D /* KTLNavigationController.h */,
+				56E9A01C234F32780024AB2D /* KTLNavigationController.m */,
+				56E9A01A234F32780024AB2D /* testSwift-Bridging-Header.h */,
+				56E9A01E234F35430024AB2D /* BaseNavigationController.swift */,
+				56E9A020234F36710024AB2D /* AnimationController.h */,
+				56E9A021234F36710024AB2D /* AnimationController.m */,
+				56E9A026234F39DE0024AB2D /* ETNavBarTransparent.swift */,
+				56E9A028234F4B690024AB2D /* BaseTabbarController.swift */,
+				56E9A03023543F8C0024AB2D /* PageTitleView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		56E9A023234F39120024AB2D /* ThemeColor */ = {
+			isa = PBXGroup;
+			children = (
+				56E9A024234F393A0024AB2D /* ThemeColor.swift */,
+				56E9A02A234F4CFC0024AB2D /* constant.swift */,
+			);
+			path = ThemeColor;
+			sourceTree = "<group>";
+		};
+		56E9A02C234F7BF60024AB2D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				56E9A02D234F7C010024AB2D /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		56E9A02D234F7C010024AB2D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				56E9A02E234F7C660024AB2D /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9023ADF5DD3A66A2E2331414 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				039BC063D894998FAFE60B62 /* Pods-testSwift.debug.xcconfig */,
+				2C8FCF819CD61D4772F2F2E1 /* Pods-testSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD5A45C6EC171A3C6C977A09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				539F32B1F7DDC24703D8A566 /* Pods_testSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56E9A007234F2E2E0024AB2D /* Build configuration list for PBXNativeTarget "testSwift" */;
 			buildPhases = (
+				E259A9C659A3A98D213EDBE8 /* [CP] Check Pods Manifest.lock */,
 				56E99FDB234F2E2D0024AB2D /* Sources */,
 				56E99FDC234F2E2D0024AB2D /* Frameworks */,
 				56E99FDD234F2E2D0024AB2D /* Resources */,
+				1BDCA4A7795B66EE6B5EB7C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +327,7 @@
 				TargetAttributes = {
 					56E99FDE234F2E2D0024AB2D = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					56E99FF2234F2E2E0024AB2D = {
 						CreatedOnToolsVersion = 10.2;
@@ -251,13 +386,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BDCA4A7795B66EE6B5EB7C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testSwift/Pods-testSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testSwift/Pods-testSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testSwift/Pods-testSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E259A9C659A3A98D213EDBE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56E99FDB234F2E2D0024AB2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56E99FE5234F2E2D0024AB2D /* ViewController.swift in Sources */,
+				56E9A03123543F8C0024AB2D /* PageTitleView.swift in Sources */,
+				56E9A01D234F32780024AB2D /* KTLNavigationController.m in Sources */,
+				56E9A027234F39DE0024AB2D /* ETNavBarTransparent.swift in Sources */,
+				56E9A02F234F7C660024AB2D /* UIBarButtonItem-Extension.swift in Sources */,
+				56E9A01F234F35430024AB2D /* BaseNavigationController.swift in Sources */,
 				56E99FE3234F2E2D0024AB2D /* AppDelegate.swift in Sources */,
+				56E9A017234F31B50024AB2D /* BaseViewController.swift in Sources */,
+				56E9A029234F4B690024AB2D /* BaseTabbarController.swift in Sources */,
+				56E9A022234F36710024AB2D /* AnimationController.m in Sources */,
+				56E9A02B234F4CFC0024AB2D /* constant.swift in Sources */,
+				56E9A025234F393A0024AB2D /* ThemeColor.swift in Sources */,
+				56E9A019234F31F20024AB2D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,16 +617,22 @@
 		};
 		56E9A008234F2E2E0024AB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039BC063D894998FAFE60B62 /* Pods-testSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.testSwift.app.testSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testSwift/Class/Main/testSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +640,21 @@
 		};
 		56E9A009234F2E2E0024AB2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8FCF819CD61D4772F2F2E1 /* Pods-testSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.testSwift.app.testSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testSwift/Class/Main/testSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

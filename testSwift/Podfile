@@ -1,0 +1,19 @@
+platform :ios, '9.0'
+
+target 'testSwift' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic framworks
+  use_frameworks!
+
+  # Pods for testSwift
+  pod 'AFNetworking'
+  pod 'SnapKit'
+  pod 'SwiftyJSON'
+  pod 'AMScrollingNavbar'#
+  pod 'PageMenu'#类似VTMagic
+  pod 'RazzleDazzle'#带有动画的引导页
+  pod 'XLPagerTabStrip'#类似VTMagic
+  pod 'Instructions'#类似VTMagic
+  pod 'SCLAlertView'
+  
+end
+ 
